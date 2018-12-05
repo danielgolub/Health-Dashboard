@@ -1,0 +1,10 @@
+extends: airbnb-base
+env:
+  node: true
+  mocha: true
+overrides:
+  - files:
+      - "**/*.test.js"
+    rules:
+      func-names: "off"
+      prefer-arrow-callback: "off"

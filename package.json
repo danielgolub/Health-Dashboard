@@ -1,0 +1,45 @@
+{
+  "name": "autodesk-health-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "New Swagger API Project",
+  "keywords": [],
+  "author": "Daniel Golub",
+  "license": "ISC",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.12.3",
+    "swagger-express-mw": "^0.1.0",
+    "config": "^3.0.0",
+    "node-cron": "^2.0.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "winston": "^3.1.0",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "should": "^7.1.0",
+    "supertest": "^1.0.0",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.8.0",
+    "mocha": "^5.2.0",
+    "sinon": "^7.1.1"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "./node_modules/mocha/bin/mocha $(find . -name '*.test.js' ! -ipath '*node_modules*') —exit"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielgolub/autodesk-health-dashboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danielgolub/autodesk-health-dashboard/issues"
+  },
+  "homepage": "https://github.com/danielgolub/autodesk-health-dashboard#readme"
+}
