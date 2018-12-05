@@ -1,8 +1,8 @@
 {
-  "name": "autodesk-health-dashboard",
+  "name": "health-check-dashboard",
   "version": "1.0.0",
   "private": true,
-  "description": "New Swagger API Project",
+  "description": "Health Check Dashboard",
   "keywords": [],
   "author": "Daniel Golub",
   "license": "ISC",
@@ -36,10 +36,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danielgolub/autodesk-health-dashboard.git"
+    "url": "git+https://github.com/danielgolub/Health-Dashboard.git"
   },
   "bugs": {
-    "url": "https://github.com/danielgolub/autodesk-health-dashboard/issues"
+    "url": "https://github.com/danielgolub/Health-Dashboard/issues"
   },
-  "homepage": "https://github.com/danielgolub/autodesk-health-dashboard#readme"
+  "homepage": "https://github.com/danielgolub/Health-Dashboard#readme"
 }
